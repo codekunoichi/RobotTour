@@ -141,19 +141,19 @@ def main():
     print("Ready to go!")
 
     # Drive 50 cm straight
-    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.6)
+    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.7)
     time.sleep_ms(1000)
-    DS2(-25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.6)
+    DS2(-25, base_speed=550, Kp_enc=2.5, Kp_gyro=0.7)
     time.sleep_ms(1000)
-    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.6)
+    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.7)
     time.sleep_ms(1000)
-    DS2(-25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.6)
+    DS2(-25, base_speed=550, Kp_enc=2.5, Kp_gyro=0.7)
     time.sleep_ms(1000)
-    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.6)
+    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.7)
     time.sleep_ms(1000)
-    DS2(-25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.6)
+    DS2(-25, base_speed=550, Kp_enc=2.5, Kp_gyro=0.7)
     time.sleep_ms(1000)
-    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.6)
+    DS2(25, base_speed=600, Kp_enc=2.5, Kp_gyro=0.7)
     time.sleep_ms(1000)
 
 
